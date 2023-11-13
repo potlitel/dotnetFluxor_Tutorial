@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01A-StateActionsReducersTut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateActionsReducersTutorial", "StateActionsReducersTutorial\StateActionsReducersTutorial.csproj", "{9336A620-E08E-46E7-8807-37129E0639B7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01B-EffectsTutorial", "01B-EffectsTutorial", "{23407AAE-20DF-4294-BF1A-FDE12A5AAFDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffectsTutorial", "EffectsTutorial\EffectsTutorial.csproj", "{9EA09864-A45E-49DA-B862-11E8D196DC87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,10 @@ Global
 		{9336A620-E08E-46E7-8807-37129E0639B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9336A620-E08E-46E7-8807-37129E0639B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9336A620-E08E-46E7-8807-37129E0639B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA09864-A45E-49DA-B862-11E8D196DC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA09864-A45E-49DA-B862-11E8D196DC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA09864-A45E-49DA-B862-11E8D196DC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA09864-A45E-49DA-B862-11E8D196DC87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -28,6 +36,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2CF45411-5F7B-470C-B016-EFE4C386F417} = {47788D69-154C-448A-A04A-317814ADCAA5}
 		{9336A620-E08E-46E7-8807-37129E0639B7} = {2CF45411-5F7B-470C-B016-EFE4C386F417}
+		{23407AAE-20DF-4294-BF1A-FDE12A5AAFDC} = {47788D69-154C-448A-A04A-317814ADCAA5}
+		{9EA09864-A45E-49DA-B862-11E8D196DC87} = {23407AAE-20DF-4294-BF1A-FDE12A5AAFDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B28B015-D4EB-4815-89BD-67959AFBFE93}
